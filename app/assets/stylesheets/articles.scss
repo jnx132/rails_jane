@@ -1,0 +1,41 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.article-title{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.detail-article{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 18px;
+}
+.wrap{
+    text-align: center;
+}
+.press{
+    border-style: solid;
+    border-color: white;
+    border-radius: 20%;
+    background-color: #6d9ce8;
+    margin-top: 10vh;
+    padding: 20px;
+}
+.big{
+    flex-direction: column;
+    padding: 30px;
+    min-width: 10vh;
+    flex: 3;
+    margin: 0px;
+}
+.paragraph{
+    font-size: 30px;
+    text-align: center;
+}
+.tab{
+    margin-left: 2.5em
+}
+

@@ -1,0 +1,120 @@
+// Place all the styles related to the Profiles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.navbar {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-between;
+  background-color:#689df2 ;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 0rem;
+}
+.navbar a{
+  padding: 30px;
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif ;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+.navbar a:hover{
+  color: #f5c542;
+}
+ul.navbar {
+    padding: 3vh;
+}
+@media all and (max-width: 800px){
+  .navbar{
+      justify-content: space-between;
+  }
+}
+@media all and (max-width: 600px){
+  .navbar{
+      flex-flow: column;
+      padding:0;
+  }
+  .navbar a {
+      text-align: center;
+      padding: 20px;
+  }
+  .navbar li:last-of-type a{
+      border-bottom: none;
+  }
+}
+.container-fluid{
+    background-color: #d1ddf1;
+    
+}
+.checkout-title{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.detail-checkout{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 18px;
+}
+.container {
+    font-weight: 600;
+    background-color: #d1ddf1;
+    padding: 5px 20px 15px 20px;
+    border-radius: 3px;
+    margin: 0 auto;
+  }
+  
+  hr.line {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+.btn  {
+    background-color: #689df2;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #689df2;
+  }
+  #press {
+    background-color: #689df2;
+  }
+  span.price {
+    float: right;
+    color: grey;
+  }
+  .footer {
+    font-size: 16px;
+    padding: 50px;
+    text-align: center;
+    color:white;
+   
+  }
+  span.footer-detail{
+  color: #689df2;
+  }
